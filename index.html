@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Практическая работа №3</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Маталин Владислав Сергеевич</h1>
+      <h2>Группа: БСБО-02-22</h2>
+      <p></p>
+    </main>
+  </body>
+  <script>
+    const currentTime = new Date().toDateString()
+    const today_text = document.querySelector('p')
+    console.log(today_text)
+    today_text.innerText = `Сегодня: ${currentTime}`
+  </script>
+</html>

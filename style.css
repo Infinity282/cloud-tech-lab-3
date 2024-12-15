@@ -1,0 +1,16 @@
+body {
+  background-color: #423838;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,
+h2,
+p {
+  color: #d6c6c6;
+}
